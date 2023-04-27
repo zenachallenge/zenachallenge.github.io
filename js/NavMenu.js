@@ -21,9 +21,9 @@ navBox.onmouseleave = function(){
 
 function updateMenu(){
 	if (menuState){
-		$(dropDownMenu).css("transform", "translateY(+40px)");
+		$(dropDownMenu).css("transform", "translateY(40px)");
 	} else{
-		$(dropDownMenu).css("transform", "translateY(-140px)");
+		$(dropDownMenu).css("transform", "translateY(-100%)");
 	}
 }
 
