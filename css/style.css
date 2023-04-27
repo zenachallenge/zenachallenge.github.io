@@ -507,13 +507,12 @@ nav h2{
 	}
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 	body{
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	
 	.description{
-		font-size: 1.8em;
 		width: fit-content;
 	}
 }
