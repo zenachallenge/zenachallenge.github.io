@@ -478,6 +478,13 @@ nav h2{
 	}
 }
 
+@media (max-width: 1500px){
+	body{
+		display: block;
+		margin: 0px;
+	}
+}
+
 @media (min-width: 700px){
 	#main-intro{
 		flex-direction: row;
