@@ -124,7 +124,7 @@ nav h2{
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 0px;
-	font-size: 1.5;
+	font-size: 1.5em;
 }
 #dropdown-menu li{
 	display: flex;
