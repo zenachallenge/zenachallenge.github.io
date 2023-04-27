@@ -157,7 +157,7 @@ header{
   align-items: center;
   justify-content: center;
 	
-	margin-top: 52px;
+	padding-top: 52px;
 	padding-bottom: 20px;
 	
 	font-size: 2em;
@@ -486,6 +486,9 @@ nav h2{
 		--horMargin: 10%; 
 	}
 	
+	body{
+		display: block;
+	}
 }
 
 @media (min-width: 700px){
