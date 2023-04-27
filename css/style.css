@@ -507,8 +507,12 @@ nav h2{
 	}
 }
 
-@media (max-width: 590px){
-	#quote-wheel p{
+@media (max-width: 500px){
+	body{
 		font-size: 2em;
+	}
+	
+	.description{
+		width: fit-content;
 	}
 }
