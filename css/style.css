@@ -361,6 +361,7 @@ footer{
 footer ul{
 	display: flex;
 	margin: 0px;
+	padding-left: 0px;
 }
 
 footer li{
@@ -397,6 +398,9 @@ footer .details p{
 	color: #9ba9bb;
 }
 
+footer a.CSS-logo img{
+	width: 64px;
+}
 
 .white{
 	color: white;
