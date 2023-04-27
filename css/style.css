@@ -3,6 +3,7 @@
 }
 
 body.fullscreen{
+	display: block;
 	height: 100vh;
 }
 
