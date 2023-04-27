@@ -478,13 +478,6 @@ nav h2{
 	}
 }
 
-@media (max-width: 1500px){
-	body{
-		display: block;
-		margin: 0px;
-	}
-}
-
 @media (min-width: 700px){
 	#main-intro{
 		flex-direction: row;
@@ -509,11 +502,17 @@ nav h2{
 
 @media (max-width: 600px){
 	body{
-		font-size: 1.8em;
+		font-size: 0.5em;
+	}
+	
+	#main-intro .intro{
+		width: 80%;
+		font-size: 2em;
 	}
 	
 	.description{
 		width: fit-content;
+		font-size: 2em;
 	}
 	
 	.description .info{
@@ -531,4 +530,3 @@ nav h2{
 		margin-top: 5%;
 	}
 }
-
