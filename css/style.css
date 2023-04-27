@@ -86,7 +86,7 @@ nav h2{
 	justify-content: center;
 	align-items: center;
 	
-  position: absolute;
+  	position: absolute;
 	z-index: 2;
 	
 	width: -webkit-fill-available;
