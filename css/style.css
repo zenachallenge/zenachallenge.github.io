@@ -513,6 +513,7 @@ nav h2{
 	}
 	
 	.description{
+		font-size: 1.8em;
 		width: fit-content;
 	}
 }
