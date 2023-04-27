@@ -1,3 +1,7 @@
+:root {
+  --horMargin: 0px; 
+}
+
 body.fullscreen{
 	height: 100vh;
 }
@@ -8,7 +12,7 @@ body{
 	
 	min-width: fit-content;
 	
-	margin: 0px 0px;
+	margin: 0px var(--horMargin);
 	font-size: 1.2em;
 	font-family: "Ysabeau", sans-serif;
 }
@@ -21,18 +25,22 @@ body{
 	height: 100%;
 }
 
-nav{
-	display: flex;
-	z-index: 2;
-	box-shadow: 0px 10px 3px #018599;
-}
-
 .logo{
 	height: 50px;
 }
 
 .invert{
 	filter: invert(100%);
+}
+
+nav{
+	display: flex;
+	position: fixed;
+	left: var(--horMargin);
+  right: var(--horMargin);
+  top: 0;
+	z-index: 1;
+	box-shadow: 0px 10px 3px rgb(0 0 0 / 40%);
 }
 
 nav a{
@@ -55,9 +63,7 @@ nav h2{
 	padding-left: 5%;
 	
 	width: -webkit-fill-available;
-	min-width: fit-content;
 	height: fit-content;
-	max-height: 90%;
 	
 	border-style: solid;
 	border-width: 2px;
@@ -73,10 +79,7 @@ nav h2{
 
 
 #nav-box{
-	min-width: fit-content;
-	max-width: 15em;
-	width: -webkit-fill-available;
-	
+	display: flex;
 	background-color: blue;
 	position: relative;
 }
@@ -86,11 +89,10 @@ nav h2{
 	justify-content: center;
 	align-items: center;
 	
-  	position: absolute;
+  position: relative;
 	z-index: 2;
 	
 	width: -webkit-fill-available;
-	height: -webkit-fill-available;
 	background-color: blue;
 }
 
@@ -107,7 +109,7 @@ nav h2{
 	border-width: 2px;
 	border-top: 0px;
 	
-  	position: absolute;
+  position: absolute;
 	z-index: 1;
 	
 	transition: 1s;
@@ -121,7 +123,7 @@ nav h2{
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 0px;
-	font-size: 1.5em;
+	font-size: 1.5;
 }
 #dropdown-menu li{
 	display: flex;
@@ -136,21 +138,26 @@ nav h2{
 }
 
 li a{
-	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	width: -webkit-fill-available;
-    	padding-top: 8px;
-    	padding-bottom: 8px;
-    	font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+		
+		align-items: center;
+		
+	  width: -webkit-fill-available;
+		
+		padding-top: 8px;
+		padding-bottom: 8px;
+		
+		font-size: 1.2em;
 }
 
 header{
 	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 	
+	margin-top: 52px;
 	padding-bottom: 20px;
 	
 	font-size: 2em;
@@ -169,8 +176,8 @@ header .message{
 
 header h1, header p{
 	display: flex;
-  	flex-direction: column;
-  	justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 	
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -348,10 +355,10 @@ footer{
 	
 	background-color: #223e6a;
 	
-  	box-shadow: 0px -11px 13px #090f18;
+  box-shadow: 0px -11px 13px #090f18;
 	text-shadow: 0px 3px 5px black;
 	
-	font-family: "Merriweather", sans-serif;
+	font-family: "Merriwether", sans-serif;
 }
 
 .no-margin{
@@ -475,9 +482,10 @@ nav h2{
 }
 
 @media (min-width: 1500px){
-	body{
-		margin: 0px 10%;
+	:root {
+		--horMargin: 10%; 
 	}
+	
 }
 
 @media (min-width: 700px){
