@@ -107,7 +107,7 @@ nav h2{
 	border-width: 2px;
 	border-top: 0px;
 	
-  position: absolute;
+  	position: absolute;
 	z-index: 1;
 	
 	transition: 1s;
@@ -136,24 +136,20 @@ nav h2{
 }
 
 li a{
-    display: flex;
-    flex-direction: column;
-		
-		align-items: center;
-		
-	  width: -webkit-fill-available;
-		
-		padding-top: 8px;
-		padding-bottom: 8px;
-		
-		font-size: 1.2em;
+	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	width: -webkit-fill-available;
+    	padding-top: 8px;
+    	padding-bottom: 8px;
+    	font-size: 1.2em;
 }
 
 header{
 	display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
 	
 	padding-bottom: 20px;
 	
@@ -173,8 +169,8 @@ header .message{
 
 header h1, header p{
 	display: flex;
-  flex-direction: column;
-  justify-content: center;
+  	flex-direction: column;
+  	justify-content: center;
 	
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -352,7 +348,7 @@ footer{
 	
 	background-color: #223e6a;
 	
-  box-shadow: 0px -11px 13px #090f18;
+  	box-shadow: 0px -11px 13px #090f18;
 	text-shadow: 0px 3px 5px black;
 	
 	font-family: "Merriwether", sans-serif;
