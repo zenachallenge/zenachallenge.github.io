@@ -428,6 +428,10 @@ footer a.CSS-logo img{
 	width: 64px;
 }
 
+a{
+	align-items: center;
+}
+
 .white{
 	color: white;
 }
