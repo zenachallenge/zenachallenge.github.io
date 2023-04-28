@@ -44,15 +44,8 @@ nav{
 nav a{
 	display: flex;
 	text-decoration: none;
+	align-items: center;
 	color: black;
-}
-
-nav a p{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	
-	margin: 0px;
 }
 
 nav h2{
@@ -426,10 +419,6 @@ footer .details p{
 
 footer a.CSS-logo img{
 	width: 64px;
-}
-
-a{
-	align-items: center;
 }
 
 .white{
