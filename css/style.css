@@ -35,8 +35,8 @@ nav{
 	display: flex;
 	position: fixed;
 	left: var(--horMargin);
-  right: var(--horMargin);
-  top: 0;
+  	right: var(--horMargin);
+  	top: 0;
 	z-index: 1;
 	box-shadow: 0px 10px 3px rgb(0 0 0 / 40%);
 }
