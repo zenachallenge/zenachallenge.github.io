@@ -444,6 +444,45 @@ footer a.CSS-logo img{
 	text-align: right;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.gallery-item p{
+	align-self: center;
+  margin-top: 5px;
+  font-size: 0.75em;
+	
+	color: rgba(0,0,0,0);
+}
+
+.gallery-item:hover {
+  background-color: #333;
+}
+
+.gallery-item:hover p{
+  color: #fff;
+}
+
 @media (prefers-color-scheme: dark){
 	body{
 		color: #F4EEE0;
