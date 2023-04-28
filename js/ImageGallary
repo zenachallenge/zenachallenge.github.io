@@ -1,1 +1,32 @@
+var gallery = document.getElementById("gallery");
 
+fetch("https://raw.githubusercontent.com/zenachallenge/zenachallenge.github.io/a068d3d8558ecb1a1b19357ba18cdc13a1fbabd6/json/images.json")
+.then(function(data){
+	data.json().then(function(json){
+		json.forEach(function(el){
+			// Creating Elements
+			let galleryItem = document.createElement("a");
+			let itemImage = document.createElement("img");
+			let itemInfo = document.createElement("p");
+			
+			// Setting The Attributes Of The Item
+			galleryItem.setAttribute("class", "gallery-item");
+			galleryItem.setAttribute("href", el.url);
+			galleryItem.setAttribute("target", "_blank");
+			
+			// Setting The Attributes Of The Image
+			itemImage.setAttribute("src", el.url);
+			itemImage.setAttribute("alt", el.caption);
+			itemImage.setAttribute("title", el.caption);
+			
+			// Setting The Attributes Of The Caption
+			itemInfo.innerText = el.caption;
+			
+			// Adding elements
+			galleryItem.appendChild(itemImage);
+			galleryItem.appendChild(itemInfo);
+			
+			gallery.appendChild(galleryItem);
+		});
+	});
+});
