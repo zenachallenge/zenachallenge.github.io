@@ -63,7 +63,7 @@ nav h2{
 	padding: 0px;
 	padding-left: 5%;
 	
-	width: -webkit-fill-available;
+	flex-grow: 1;
 	height: fit-content;
 	
 	border-style: solid;
