@@ -339,6 +339,7 @@ a.java-logo, a.python-logo{
 aside{
 	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 	align-self: flex-start;
 	
 	background-color: #4c5174;
