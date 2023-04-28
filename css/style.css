@@ -1,5 +1,5 @@
 :root {
-  --horMargin: 0px; 
+  --horMargin: 0%; 
 }
 
 body.fullscreen{
@@ -8,9 +8,6 @@ body.fullscreen{
 }
 
 body{
-	display: flex;
-	justify-content: center;
-	
 	min-width: fit-content;
 	
 	margin: 0px var(--horMargin);
@@ -346,6 +343,27 @@ a.java-logo, a.python-logo{
   height: 200px;
 }
 
+aside{
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	
+	background-color: #4c5174;
+}
+
+aside ul{
+	display: flex;
+	flex-direction: column;
+}
+
+aside li{
+	align-self: flex-start;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
 
 footer{
 	display: flex;
