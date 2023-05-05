@@ -223,7 +223,7 @@ header.page-error a:visited{
 }
 main{
 	display: flex;
-    	justify-content: center;
+    justify-content: center;
 }
 
 #main-intro .intro{
@@ -354,21 +354,20 @@ a.java-logo, a.python-logo{
 
 .info a.python-logo img, a.c-logo img{
 	margin-left: 30px;
-  	margin-right: 30px;
-	
-  	align-self: flex-end;
+	margin-right: 30px;
+	align-self: flex-end;
   	height: 200px;
 }
 
 .description ul.nav-buttons{
 	display: flex;
-    	justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .description ul.nav-buttons li{
-	padding: 15px 33px;
-    	background-color: cornflowerblue;
-    	border-radius: 5px;
+	padding: 3% 8%;
+    background-color: cornflowerblue;
+    border-radius: 5px;
 	list-style: none;
 }
 
@@ -726,6 +725,10 @@ nav h2{
 	
 	.info a{
 		margin-top: 5%;
+	}
+	
+	.description ul.nav-buttons li {
+    	font-size: 0.5em;
 	}
 	
 	#gallery {
