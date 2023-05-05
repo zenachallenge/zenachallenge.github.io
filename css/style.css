@@ -450,6 +450,7 @@ footer a.CSS-logo img{
   	justify-content: space-between;
   	width: 600px;
   	margin: auto;
+	margin-top: 15px;
 }
 
 .gallery-item {
@@ -465,10 +466,6 @@ footer a.CSS-logo img{
   	border-style: groove;
   	border-color: lightslategrey;
   	background-color: #19263a;
-}
-
-.gallery-item:first-child, .gallery-item:nth-child(2), .gallery-item:nth-child(3){
-	margin-top: 15px;
 }
 
 .gallery-item img {
