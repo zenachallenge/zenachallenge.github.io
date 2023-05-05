@@ -361,13 +361,15 @@ a.java-logo, a.python-logo{
 
 .description ul.nav-buttons{
 	display: flex;
-    justify-content: space-evenly;
+	margin: 0px;
+	padding: 0px;
+    	justify-content: space-evenly;
 }
 
 .description ul.nav-buttons li{
 	padding: 3% 8%;
-    background-color: cornflowerblue;
-    border-radius: 5px;
+    	background-color: cornflowerblue;
+    	border-radius: 5px;
 	list-style: none;
 }
 
