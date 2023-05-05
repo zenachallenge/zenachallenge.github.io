@@ -6,9 +6,9 @@ Create a Personal Website
 
 >## Acitve Pages
 >
->-Home
->-About
->-Carousel
->-Programming-languages (Image Gallery)
->-Content-unavaliable
->-404
+>- Home
+>- About
+>- Carousel
+>- Programming-languages (Image Gallery)
+>- Content-unavaliable
+>- 404
