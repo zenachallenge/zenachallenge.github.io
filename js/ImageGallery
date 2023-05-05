@@ -1,6 +1,6 @@
 var gallery = document.getElementById("gallery");
 
-fetch("https://raw.githubusercontent.com/zenachallenge/zenachallenge.github.io/a068d3d8558ecb1a1b19357ba18cdc13a1fbabd6/json/images.json")
+fetch("https://raw.githubusercontent.com/zenachallenge/zenachallenge.github.io/main/json/images.json")
 .then(function(data){
 	data.json().then(function(json){
 		json.forEach(function(el){
