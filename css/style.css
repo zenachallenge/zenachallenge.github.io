@@ -200,6 +200,7 @@ header.page-error{
 
 header.page-error a{
 	text-decoration: none;
+	text-shadow: none;
 	background-color: cadetblue;
 	border-style: groove;
 }
