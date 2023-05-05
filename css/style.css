@@ -198,6 +198,16 @@ header.page-error{
 	background-image: unset;
 }
 
+header.page-error a{
+	text-decoration: none;
+	background-color: cadetblue;
+	border-style: groove;
+}
+
+header.page-error a:active{
+	color: inherit;
+}
+
 #main-intro{
 	display: flex;
 	flex-direction: column;
@@ -652,6 +662,19 @@ nav h2{
 @media (max-width: 600px){
 	body{
 		font-size: 0.5em;
+	}
+	
+	header.page-error h1{
+	    	font-size: 3em;
+	}
+	
+	header.page-error p{
+	    	font-size: 2em;
+	}
+	
+	header.page-error a{
+	    	align-self: center;
+	    	font-size: 1.5em;
 	}
 	
 	#main-intro .intro{
