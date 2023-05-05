@@ -100,7 +100,7 @@ nav h2{
 	border-width: 2px;
 	border-top: 0px;
 	
-  position: absolute;
+  	position: absolute;
 	z-index: 1;
 	
 	transition: 1s;
@@ -203,6 +203,8 @@ header.page-error a{
 	text-decoration: none;
 	text-shadow: none;
 	text-align: center;
+	align-self: center;
+	widt: fit-content;
 	background-color: cadetblue;
 	border-style: groove;
 	color: inherit;
