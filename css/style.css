@@ -461,10 +461,13 @@ footer a.CSS-logo img{
   color: #333;
   padding: 5px;
   box-sizing: border-box;
+  border-style: groove;
+  border-color: lightslategrey;
+  background-color: #19263a;
 }
 
 .gallery-item img {
-  width: 100%;
+  width: 100px;
 }
 
 .gallery-item p{
@@ -476,7 +479,7 @@ footer a.CSS-logo img{
 }
 
 .gallery-item:hover {
-  background-color: #333;
+  background-color: #2b305e;
 }
 
 .gallery-item:hover p{
