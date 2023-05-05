@@ -31,7 +31,6 @@ function setupCarousel(json) {
 			currentImage = imageCount+1;
 			images.style.right = imageCount * (imageWidth - (currentImage * imageWidth)) + 'px';
 		}
-    // Move one 'image' width left
 		if(currentImage != 1) images.style.left = imageWidth - (--currentImage * imageWidth) + 'px';
 		
 		// Update caption
@@ -44,7 +43,6 @@ function setupCarousel(json) {
 			currentImage = 0;
 			images.style.left = imageCount * (imageWidth - (currentImage * imageWidth)) + 'px';
 		}
-    // Move one 'image' width right
 		if(currentImage != imageCount) images.style.left = imageWidth - (++currentImage * imageWidth) + 'px';
 		
 		// Update caption
@@ -55,11 +53,10 @@ function setupCarousel(json) {
 	prevBut.addEventListener('click', prevImg);
 	nextBut.addEventListener('click', nextImg);
 	
-  // Set initial caption
 	caption.innerText = json[currentImage - 1].caption;
 	  
 	// Autoplay function - Stops when mouse over carousel
 	setInterval(function(){
-		if (document.querySelector(".carousel:hover") == null) right();
+		if (document.querySelector(".carousel:hover") == null) nextImg();
 	}, 5000);
 }
