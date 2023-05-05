@@ -356,15 +356,16 @@ a.java-logo, a.python-logo{
   	height: 200px;
 }
 
-.info ul.nav-buttons{
+.description ul.nav-buttons{
 	display: flex;
     	justify-content: space-evenly;
 }
 
-.info ul.nav-buttons li{
+.description ul.nav-buttons li{
 	padding: 15px 33px;
     	background-color: cornflowerblue;
     	border-radius: 5px;
+	list-style: none;
 }
 
 aside{
