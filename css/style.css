@@ -278,6 +278,10 @@ header.page-error{
 	background-color: #393f48;
 }
 
+.description:first-child{
+	margin-top: 50px;
+}
+
 .title{
 	align-self: flex-start;
 	text-decoration: underline;
