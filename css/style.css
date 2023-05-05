@@ -455,6 +455,7 @@ footer a.CSS-logo img{
 .gallery-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 33%;
   margin-bottom: 15px;
   text-decoration: none;
