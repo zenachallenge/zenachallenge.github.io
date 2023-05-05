@@ -410,6 +410,7 @@ footer .details{
 
 footer .details p{
 	align-self: flex-end;
+	text-align: right;
 	
 	margin: 0px;
 	margin-bottom: 2px;
