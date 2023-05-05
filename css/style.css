@@ -37,7 +37,7 @@ nav{
 	left: var(--horMargin);
   	right: var(--horMargin);
   	top: 0;
-	z-index: 1;
+	z-index: 3;
 	box-shadow: 0px 10px 3px rgb(0 0 0 / 40%);
 }
 
@@ -81,7 +81,7 @@ nav h2{
 	align-items: center;
 	
   position: relative;
-	z-index: 2;
+	z-index: 4;
 	
 	width: -webkit-fill-available;
 	background-color: blue;
@@ -101,7 +101,7 @@ nav h2{
 	border-top: 0px;
 	
   	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	
 	transition: 1s;
 	transform: translateY(-140px);
