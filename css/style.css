@@ -602,4 +602,13 @@ nav h2{
 	.info a{
 		margin-top: 5%;
 	}
+	
+	#gallery {
+    	width: 300px;
+	}
+	
+	#gallery .gallery-item p {
+		font-size: 1em;
+		color: white;
+	}
 }
